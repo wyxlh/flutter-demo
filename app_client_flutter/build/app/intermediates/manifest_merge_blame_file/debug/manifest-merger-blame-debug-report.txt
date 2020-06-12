@@ -1,0 +1,907 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yzsh.power.client"
+4    android:versionCode="1"
+5    android:versionName="4.1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:11:5-67
+14-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:11:22-64
+15    <!--
+16     io.flutter.app.FlutterApplication is an android.app.Application that
+17         calls FlutterMain.startInitialization(this); in its onCreate method.
+18         In most cases you can leave this as-is, but you if you want to provide
+19         additional functionality it is fine to subclass or reimplement
+20         FlutterApplication and put your custom class here.
+21    -->
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:9:5-79
+22-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:9:22-76
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:10:5-76
+23-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:10:22-73
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:12:5-81
+24-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:12:22-78
+25    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+25-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:13:5-79
+25-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:13:22-76
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:14:5-81
+26-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:14:22-78
+27    <uses-permission android:name="android.permission.CAMERA" />
+27-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:15:5-65
+27-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:15:22-62
+28    <uses-permission android:name="android.permission.CALL_PHONE" />
+28-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:16:5-69
+28-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:16:22-66
+29    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- android 9.0上使用前台服务，需要添加权限 -->
+29-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:17:5-82
+29-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:17:22-80
+30    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+30-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:19:5-77
+30-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:19:22-74
+31    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+31-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-75
+31-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-72
+32    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+32-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-76
+32-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-73
+33    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+33-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-81
+33-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-78
+34    <uses-permission android:name="android.permission.VIBRATE" />
+34-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-66
+34-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-63
+35    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- 自定义权限 -->
+35-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-68
+35-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-65
+36    <uses-permission android:name="getui.permission.GetuiService.com.yzsh.power.client" />
+36-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:18:5-86
+36-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:18:22-83
+37
+38    <permission
+38-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-22:44
+39        android:name="getui.permission.GetuiService.com.yzsh.power.client"
+39-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-70
+40        android:protectionLevel="normal" /> <!-- 浮动通知权限 -->
+40-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-41
+41    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+41-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-78
+41-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:25:22-75
+42    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+42-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-75
+42-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-72
+43    <uses-permission android:name="android.permission.GET_TASKS" />
+43-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-68
+43-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-65
+44    <uses-permission android:name="android.permission.VIBRATE" />
+44-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-66
+44-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-63
+45
+46    <permission
+46-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:36:5-38:47
+47        android:name="com.yzsh.power.client.permission.MIPUSH_RECEIVE"
+47-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-66
+48        android:protectionLevel="signature" />
+48-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:38:9-44
+49
+50    <uses-permission android:name="com.yzsh.power.client.permission.MIPUSH_RECEIVE" /> <!-- 魅族 -->
+50-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:40:5-82
+50-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:40:22-79
+51    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+51-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:43:5-73
+51-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:43:22-70
+52    <uses-permission android:name="com.meizu.flyme.push.permission.RECEIVE" />
+52-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:44:5-79
+52-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:44:22-76
+53    <uses-permission android:name="com.meizu.c2dm.permission.RECEIVE" />
+53-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:45:5-73
+53-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:45:22-70
+54    <uses-permission android:name="com.yzsh.power.client.push.permission.MESSAGE" />
+54-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:46:5-80
+54-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:46:22-77
+55    <uses-permission android:name="com.yzsh.power.client.permission.C2D_MESSAGE" />
+55-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:47:5-79
+55-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:47:22-76
+56
+57    <permission
+57-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:49:5-51:47
+58        android:name="com.yzsh.power.client.push.permission.MESSAGE"
+58-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:50:9-64
+59        android:protectionLevel="signature" />
+59-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:51:9-44
+60    <permission
+60-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:52:5-54:47
+61        android:name="com.yzsh.power.client.permission.C2D_MESSAGE"
+61-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:53:9-63
+62        android:protectionLevel="signature" /> <!-- 为了了获取⽤用户⼿手机的IMEI，⽤用来唯⼀一的标识⽤用户。 -->
+62-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:54:9-44
+63    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 接收PUSH TOKEN的⼴广播以及PUSH消息需要定义该权限 -->
+63-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-75
+63-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-72
+64    <permission
+64-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:70:5-72:55
+65        android:name="com.yzsh.power.client.permission.PROCESS_PUSH_MSG"
+65-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:71:9-68
+66        android:protectionLevel="signatureOrSystem" /> <!-- 接收PUSH TOKEN的⼴广播以及PUSH消息需要定义该权限 -->
+66-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:72:9-52
+67    <uses-permission android:name="com.yzsh.power.client.permission.PROCESS_PUSH_MSG" /> <!-- OPPO -->
+67-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:74:5-84
+67-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:74:22-81
+68    <uses-permission android:name="com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE" />
+68-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:77:5-86
+68-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:77:22-83
+69    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+70
+71    <supports-screens
+71-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:11:5-16:39
+72        android:anyDensity="true"
+72-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:12:9-34
+73        android:largeScreens="true"
+73-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:13:9-36
+74        android:normalScreens="true"
+74-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:14:9-37
+75        android:resizeable="true"
+75-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:15:9-34
+76        android:smallScreens="true" />
+76-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:16:9-36
+77
+78    <application
+78-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:21:5-72:19
+79        android:name="com.yzsh.power.client.MyApplication"
+79-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:22:9-38
+80        android:allowBackup="true"
+80-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:24:9-35
+81        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+81-->[androidx.core:core:1.1.0] /Users/YZC/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/AndroidManifest.xml:24:18-86
+82        android:debuggable="true"
+83        android:icon="@mipmap/logo"
+83-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:26:9-36
+84        android:label="@string/app_name"
+84-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:23:9-41
+85        android:networkSecurityConfig="@xml/network_security_config"
+85-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:28:9-69
+86        android:roundIcon="@mipmap/logo_round"
+86-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:27:9-47
+87        android:supportsRtl="true"
+87-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:29:9-35
+88        android:theme="@style/AppTheme"
+88-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:11:18-49
+89        android:usesCleartextTraffic="true" >
+89-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:25:9-44
+90
+91        <!-- //否则9.0会闪退,参考https://www.jianshu.com/p/604b63d7efed -->
+92        <uses-library
+92-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:32:9-34:40
+93            android:name="org.apache.http.legacy"
+93-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:33:13-50
+94            android:required="false" />
+94-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:34:13-37
+95
+96        <activity
+96-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:36:9-48:20
+97            android:name="com.yzsh.power.client.MainActivity"
+97-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:37:13-41
+98            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+98-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:40:13-163
+99            android:hardwareAccelerated="true"
+99-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:41:13-47
+100            android:launchMode="singleTop"
+100-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:38:13-43
+101            android:screenOrientation="portrait"
+101-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:43:13-49
+102            android:theme="@style/LaunchTheme"
+102-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:39:13-47
+103            android:windowSoftInputMode="adjustResize" >
+103-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:42:13-55
+104            <intent-filter>
+104-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:44:13-47:29
+105                <action android:name="android.intent.action.MAIN" />
+105-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:45:17-68
+105-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:45:25-66
+106
+107                <category android:name="android.intent.category.LAUNCHER" />
+107-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:46:17-76
+107-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:46:27-74
+108            </intent-filter>
+109        </activity>
+110        <activity
+110-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:49:9-52:46
+111            android:name="com.yzsh.power.client.wxapi.WXPayEntryActivity"
+111-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:50:13-53
+112            android:exported="true"
+112-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:51:13-36
+113            android:launchMode="singleTop" />
+113-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:52:13-43
+114
+115        <!-- 高德地图 -->
+116        <meta-data
+116-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:55:9-57:64
+117            android:name="com.amap.api.v2.apikey"
+117-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:56:13-50
+118            android:value="838dae9226532ced36441208d74e60fd" />
+118-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:57:13-61
+119
+120        <service android:name="com.amap.api.location.APSService" />
+120-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:58:9-68
+120-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:58:18-65
+121        <service
+121-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:60:9-62:39
+122            android:name="com.yzsh.power.client.service.LocationService"
+122-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:60:18-57
+123            android:enabled="true"
+123-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:61:13-35
+124            android:exported="true" />
+124-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:62:13-36
+125
+126        <meta-data
+126-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:64:9-73
+127            android:name="updateBaseVersion"
+127-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:64:20-52
+128            android:value="0" />
+128-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:64:53-70
+129        <meta-data
+129-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:65:9-73
+130            android:name="locationPeriod"
+130-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:65:20-49
+131            android:value="5000" />
+131-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:65:50-70
+132
+133        <!--
+134        Don't delete the meta-data below.
+135        This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+136        -->
+137        <meta-data
+137-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:69:9-71:33
+138            android:name="flutterEmbedding"
+138-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:70:13-44
+139            android:value="2" />
+139-->/Users/YZC/projects/app_client_flutter/android/app/src/main/AndroidManifest.xml:71:13-30
+140        <meta-data
+140-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:83:9-85:47
+141            android:name="PUSH_APPID"
+141-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:84:13-38
+142            android:value="1rF4Wza0hq5spZQ2DfkDo9" />
+142-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:85:13-44
+143        <meta-data
+143-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:86:9-88:48
+144            android:name="PUSH_APPKEY"
+144-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:87:13-39
+145            android:value="raJ98El2eA6inHcUqtQ8Y4" />
+145-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:88:13-45
+146        <meta-data
+146-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:89:9-91:51
+147            android:name="PUSH_APPSECRET"
+147-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:90:13-42
+148            android:value="yv9h22UUiQ9vQTfnoVcz26" />
+148-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:91:13-48
+149        <meta-data
+149-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:92:9-94:51
+150            android:name="MIPUSH_APPID"
+150-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:93:13-40
+151            android:value="XM_" />
+151-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:94:13-48
+152        <meta-data
+152-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:95:9-97:52
+153            android:name="MIPUSH_APPKEY"
+153-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:96:13-41
+154            android:value="XM_" />
+154-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:97:13-49
+155        <meta-data
+155-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:98:9-100:50
+156            android:name="MEIZUPUSH_APPID"
+156-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:99:13-43
+157            android:value="MZ_" />
+157-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:100:13-47
+158        <meta-data
+158-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:101:9-103:51
+159            android:name="MEIZUPUSH_APPKEY"
+159-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:102:13-44
+160            android:value="MZ_" />
+160-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:103:13-48
+161        <meta-data
+161-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:104:9-106:48
+162            android:name="com.huawei.hms.client.appid"
+162-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:105:13-55
+163            android:value="" />
+163-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:106:13-45
+164        <meta-data
+164-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:107:9-109:50
+165            android:name="OPPOPUSH_APPKEY"
+165-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:108:13-43
+166            android:value="OP_" />
+166-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:109:13-47
+167        <meta-data
+167-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:110:9-112:53
+168            android:name="OPPOPUSH_APPSECRET"
+168-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:111:13-46
+169            android:value="OP_" />
+169-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:112:13-50
+170        <meta-data
+170-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:113:9-115:46
+171            android:name="com.vivo.push.app_id"
+171-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:114:13-48
+172            android:value="" />
+172-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:115:13-43
+173        <meta-data
+173-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:116:9-118:47
+174            android:name="com.vivo.push.api_key"
+174-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:117:13-49
+175            android:value="" /> <!-- 用户自定义服务继承自GTIntentService,作为SDK与APP桥梁服务,用来接收各种消息和命令回复 -->
+175-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:118:13-44
+176        <service
+176-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:120:9-122:72
+177            android:name="com.getui.getuiflut.FlutterIntentService"
+177-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:121:13-68
+178            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- 配置SDK核心服务 -->
+178-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:122:13-69
+179        <service
+179-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:124:9-128:46
+180            android:name="com.getui.getuiflut.FlutterPushService"
+180-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:125:13-66
+181            android:exported="true"
+181-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:126:13-36
+182            android:label="PushService"
+182-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:127:13-40
+183            android:process=":pushservice" />
+183-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:128:13-43
+184        <service
+184-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:129:9-138:19
+185            android:name="com.igexin.sdk.PushService"
+185-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:130:13-54
+186            android:exported="true"
+186-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:131:13-36
+187            android:label="NotificationCenter"
+187-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:132:13-47
+188            android:permission="android.permission.BIND_JOB_SERVICE"
+188-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:133:13-69
+189            android:process=":pushservice" >
+189-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:134:13-43
+190            <intent-filter>
+190-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:135:13-137:29
+191                <action android:name="com.igexin.sdk.action.service.message" />
+191-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:136:17-80
+191-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:136:25-77
+192            </intent-filter>
+193        </service>
+194
+195        <receiver android:name="com.igexin.sdk.PushReceiver" >
+195-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:140:9-150:20
+195-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:140:19-61
+196            <intent-filter>
+196-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:141:13-149:29
+197                <action android:name="android.intent.action.BOOT_COMPLETED" />
+197-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:142:17-79
+197-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:142:25-76
+198                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+198-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:143:17-79
+198-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:143:25-76
+199                <action android:name="android.intent.action.USER_PRESENT" />
+199-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:144:17-77
+199-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:144:25-74
+200                <action android:name="com.igexin.sdk.action.refreshls" />
+200-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:145:17-74
+200-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:145:25-71
+201                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+201-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:146:17-78
+201-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:146:25-75
+202                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+202-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:147:17-87
+202-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:147:25-84
+203                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+203-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:148:17-90
+203-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:148:25-87
+204            </intent-filter>
+205        </receiver>
+206
+207        <activity
+207-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:152:9-158:75
+208            android:name="com.igexin.sdk.PushActivity"
+208-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:153:13-55
+209            android:excludeFromRecents="true"
+209-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:154:13-46
+210            android:exported="false"
+210-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:155:13-37
+211            android:process=":pushservice"
+211-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:156:13-43
+212            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+212-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:157:13-67
+213            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+213-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:158:13-72
+214        <activity
+214-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:159:9-165:75
+215            android:name="com.igexin.sdk.GActivity"
+215-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:160:13-52
+216            android:excludeFromRecents="true"
+216-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:161:13-46
+217            android:exported="true"
+217-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:162:13-36
+218            android:process=":pushservice"
+218-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:163:13-43
+219            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+219-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:164:13-67
+220            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Flutter动态看护 -->
+220-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:165:13-72
+221        <activity
+221-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:167:9-173:75
+222            android:name="com.getui.getuiflut.GetuiPluginActivity"
+222-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:168:13-67
+223            android:excludeFromRecents="true"
+223-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:169:13-46
+224            android:exported="true"
+224-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:170:13-36
+225            android:process=":pushservice"
+225-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:171:13-43
+226            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+226-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:172:13-67
+227            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- meizu push -->
+227-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:173:13-72
+228        <service
+228-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:175:9-178:46
+229            android:name="com.meizu.cloud.pushsdk.NotificationService"
+229-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:176:13-71
+230            android:exported="true"
+230-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:177:13-36
+231            android:process=":pushservice" />
+231-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:178:13-43
+232
+233        <receiver
+233-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:180:9-188:20
+234            android:name="com.meizu.cloud.pushsdk.SystemReceiver"
+234-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:181:13-66
+235            android:process=":pushservice" >
+235-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:182:13-43
+236            <intent-filter>
+236-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:183:13-187:29
+237                <action android:name="com.meizu.cloud.pushservice.action.PUSH_SERVICE_START" />
+237-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:184:17-96
+237-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:184:25-93
+238
+239                <category android:name="android.intent.category.DEFAULT" />
+239-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:186:17-76
+239-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:186:27-73
+240            </intent-filter>
+241        </receiver>
+242        <receiver
+242-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:189:9-206:20
+243            android:name="com.igexin.sdk.FlymePushReceiver"
+243-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:190:13-60
+244            android:process=":pushservice" >
+244-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:191:13-43
+245            <intent-filter>
+245-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:192:13-205:29
+246
+247                <!-- 接收push消息 -->
+248                <action android:name="com.meizu.flyme.push.intent.MESSAGE" />
+248-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:195:17-78
+248-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:195:25-75
+249                <!-- 接收register消息 -->
+250                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK" />
+250-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:197:17-88
+250-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:197:25-85
+251                <!-- 接收unregister消息 -->
+252                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK" />
+252-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:199:17-90
+252-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:199:25-87
+253                <!-- 兼容低版本Flyme3推送服务配置 -->
+254                <action android:name="com.meizu.c2dm.intent.REGISTRATION" />
+254-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:201:17-77
+254-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:201:25-74
+255                <action android:name="com.meizu.c2dm.intent.RECEIVE" />
+255-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:202:17-72
+255-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:202:25-69
+256
+257                <category android:name="com.yzsh.power.client" />
+257-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:204:17-61
+257-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:204:27-58
+258            </intent-filter>
+259        </receiver> <!-- mipush -->
+260        <service
+260-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:209:9-213:46
+261            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+261-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:210:13-68
+262            android:enabled="true"
+262-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:211:13-35
+263            android:exported="true"
+263-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:212:13-36
+264            android:process=":pushservice" />
+264-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:213:13-43
+265        <service
+265-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:214:9-217:46
+266            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+266-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:215:13-70
+267            android:enabled="true"
+267-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:216:13-35
+268            android:process=":pushservice" />
+268-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:217:13-43
+269
+270        <receiver
+270-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:219:9-232:20
+271            android:name="com.igexin.sdk.MiuiPushReceiver"
+271-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:220:13-59
+272            android:exported="true"
+272-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:221:13-36
+273            android:process=":pushservice" >
+273-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:222:13-43
+274            <intent-filter>
+274-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:223:13-225:29
+275                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+275-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:224:17-76
+275-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:224:25-73
+276            </intent-filter>
+277            <intent-filter>
+277-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:226:13-228:29
+278                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+278-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:227:17-76
+278-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:227:25-73
+279            </intent-filter>
+280            <intent-filter>
+280-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:229:13-231:29
+281                <action android:name="com.xiaomi.mipush.ERROR" />
+281-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:230:17-66
+281-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:230:25-63
+282            </intent-filter>
+283        </receiver> <!-- hmspush -->
+284        <activity
+284-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:235:9-246:20
+285            android:name="com.huawei.android.hms.agent.common.HMSAgentActivity"
+285-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:236:13-80
+286            android:configChanges="orientation|locale|screenSize|layoutDirection|fontScale"
+286-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:237:13-92
+287            android:excludeFromRecents="true"
+287-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:238:13-46
+288            android:exported="false"
+288-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:239:13-37
+289            android:hardwareAccelerated="true"
+289-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:240:13-47
+290            android:process=":pushservice"
+290-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:241:13-43
+291            android:theme="@android:style/Theme.Translucent" >
+291-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:242:13-61
+292            <meta-data
+292-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:243:13-245:77
+293                android:name="hwc-theme"
+293-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:244:17-41
+294                android:value="androidhwext:style/Theme.Emui.Translucent" />
+294-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:245:17-74
+295        </activity>
+296        <activity
+296-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:247:9-258:20
+297            android:name="com.huawei.hms.activity.BridgeActivity"
+297-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:248:13-66
+298            android:configChanges="orientation|locale|screenSize|layoutDirection|fontScale"
+298-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:249:13-92
+299            android:excludeFromRecents="true"
+299-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:250:13-46
+300            android:exported="false"
+300-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:251:13-37
+301            android:hardwareAccelerated="true"
+301-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:252:13-47
+302            android:process=":pushservice"
+302-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:253:13-43
+303            android:theme="@android:style/Theme.Translucent" >
+303-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:254:13-61
+304            <meta-data
+304-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:243:13-245:77
+305                android:name="hwc-theme"
+305-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:244:17-41
+306                android:value="androidhwext:style/Theme.Emui.Translucent" />
+306-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:245:17-74
+307        </activity>
+308
+309        <provider
+309-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:260:9-265:46
+310            android:name="com.huawei.hms.update.provider.UpdateProvider"
+310-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:261:13-73
+311            android:authorities="com.yzsh.power.client.hms.update.provider"
+311-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:262:13-71
+312            android:exported="false"
+312-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:263:13-37
+313            android:grantUriPermissions="true"
+313-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:264:13-47
+314            android:process=":pushservice" />
+314-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:265:13-43
+315
+316        <receiver
+316-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:267:9-280:20
+317            android:name="com.igexin.sdk.HmsPushReceiver"
+317-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:268:13-58
+318            android:permission="com.yzsh.power.client.permission.PROCESS_PUSH_MSG"
+318-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:269:13-78
+319            android:process=":pushservice" >
+319-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:270:13-43
+320            <intent-filter>
+320-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:271:13-279:29
+321
+322                <!-- 必须,⽤用于接收token -->
+323                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
+323-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:274:17-86
+323-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:274:25-83
+324                <!-- 必须，⽤用于接收消息 -->
+325                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+325-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:276:17-81
+325-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:276:25-78
+326                <!-- 必须, ⽤用于接收通知栏消息点击事件 此事件不不需要开发者处理理，只需注册就可以 -->
+327                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY" />
+327-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:278:17-85
+327-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:278:25-82
+328            </intent-filter>
+329        </receiver>
+330        <receiver
+330-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:281:9-291:20
+331            android:name="com.igexin.sdk.HmsPushSubReceiver"
+331-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:282:13-61
+332            android:process=":pushservice" >
+332-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:283:13-43
+333            <intent-filter>
+333-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:284:13-290:29
+334
+335                <!-- 可选，⽤用于点击通知栏或通知栏上的按钮后触发onEvent回调 -->
+336                <action android:name="com.huawei.android.push.intent.CLICK" />
+336-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:287:17-79
+336-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:287:25-76
+337                <!-- 可选，查看push通道是否连接，不不查看则不不需要 -->
+338                <action android:name="com.huawei.intent.action.PUSH_STATE" />
+338-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:289:17-78
+338-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:289:25-75
+339            </intent-filter>
+340        </receiver> <!-- 接⼊入HMSSDK PUSH模块需要注册该service，不不需要开发者处理理 -->
+341        <service
+341-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:293:9-302:19
+342            android:name="com.huawei.hms.support.api.push.service.HmsMsgService"
+342-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:294:13-81
+343            android:enabled="true"
+343-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:295:13-35
+344            android:exported="true"
+344-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:296:13-36
+345            android:process=":pushservice" >
+345-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:297:13-43
+346            <intent-filter>
+346-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:298:13-301:29
+347                <action android:name="com.huawei.push.msg.NOTIFY_MSG" />
+347-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:299:17-73
+347-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:299:25-70
+348                <action android:name="com.huawei.push.msg.PASSBY_MSG" />
+348-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:300:17-73
+348-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:300:25-70
+349            </intent-filter>
+350        </service> <!-- oppopush -->
+351        <service
+351-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:305:9-311:19
+352            android:name="com.igexin.sdk.OppoPushService"
+352-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:306:13-58
+353            android:process=":pushservice" >
+353-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:307:13-43
+354            <intent-filter>
+354-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:308:13-310:29
+355                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE" />
+355-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:309:17-85
+355-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:309:25-82
+356            </intent-filter>
+357        </service> <!-- vivopush -->
+358        <service
+358-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:314:9-317:46
+359            android:name="com.vivo.push.sdk.service.CommandClientService"
+359-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:315:13-74
+360            android:exported="true"
+360-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:316:13-36
+361            android:process=":pushservice" />
+361-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:317:13-43
+362
+363        <activity
+363-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:319:9-324:75
+364            android:name="com.vivo.push.sdk.LinkProxyClientActivity"
+364-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:320:13-69
+365            android:exported="true"
+365-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:321:13-36
+366            android:process=":pushservice"
+366-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:322:13-43
+367            android:screenOrientation="portrait"
+367-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:323:13-49
+368            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+368-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:324:13-72
+369
+370        <receiver
+370-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:326:9-334:20
+371            android:name="com.igexin.sdk.VivoPushMessageReceiver"
+371-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:327:13-66
+372            android:process=":pushservice" >
+372-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:328:13-43
+373            <intent-filter>
+373-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:329:13-333:29
+374
+375                <!-- 接收 push 消息 -->
+376                <action android:name="com.vivo.pushclient.action.RECEIVE" />
+376-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:332:17-77
+376-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:332:25-74
+377            </intent-filter>
+378        </receiver>
+379
+380        <activity
+380-->[cn.yipianfengye.android:zxing-library:2.2] /Users/YZC/.gradle/caches/transforms-2/files-2.1/236d603287ac28253273904aae23e0ae/jetified-zxing-library-2.2/AndroidManifest.xml:12:9-17:63
+381            android:name="com.uuzuche.lib_zxing.activity.CaptureActivity"
+381-->[cn.yipianfengye.android:zxing-library:2.2] /Users/YZC/.gradle/caches/transforms-2/files-2.1/236d603287ac28253273904aae23e0ae/jetified-zxing-library-2.2/AndroidManifest.xml:13:13-74
+382            android:configChanges="orientation|keyboardHidden"
+382-->[cn.yipianfengye.android:zxing-library:2.2] /Users/YZC/.gradle/caches/transforms-2/files-2.1/236d603287ac28253273904aae23e0ae/jetified-zxing-library-2.2/AndroidManifest.xml:14:13-63
+383            android:screenOrientation="portrait"
+383-->[cn.yipianfengye.android:zxing-library:2.2] /Users/YZC/.gradle/caches/transforms-2/files-2.1/236d603287ac28253273904aae23e0ae/jetified-zxing-library-2.2/AndroidManifest.xml:15:13-49
+384            android:theme="@style/Theme.AppCompat.NoActionBar"
+384-->[cn.yipianfengye.android:zxing-library:2.2] /Users/YZC/.gradle/caches/transforms-2/files-2.1/236d603287ac28253273904aae23e0ae/jetified-zxing-library-2.2/AndroidManifest.xml:16:13-63
+385            android:windowSoftInputMode="stateAlwaysHidden" />
+385-->[cn.yipianfengye.android:zxing-library:2.2] /Users/YZC/.gradle/caches/transforms-2/files-2.1/236d603287ac28253273904aae23e0ae/jetified-zxing-library-2.2/AndroidManifest.xml:17:13-60
+386
+387        <provider
+387-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:12:9-20:20
+388            android:name="com.luck.picture.lib.PictureFileProvider"
+388-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:13:13-68
+389            android:authorities="com.yzsh.power.client.provider"
+389-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:14:13-60
+390            android:exported="false"
+390-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:15:13-37
+391            android:grantUriPermissions="true" >
+391-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:16:13-47
+392            <meta-data
+392-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:17:13-19:54
+393                android:name="android.support.FILE_PROVIDER_PATHS"
+393-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:18:17-67
+394                android:resource="@xml/file_paths" />
+394-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:19:17-51
+395        </provider>
+396
+397        <activity
+397-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:22:9-24:55
+398            android:name="com.luck.picture.lib.PictureSelectorActivity"
+398-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:23:13-72
+399            android:windowSoftInputMode="adjustPan" />
+399-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:24:13-52
+400        <activity android:name="com.luck.picture.lib.PicturePreviewActivity" />
+400-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:25:9-80
+400-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:25:19-77
+401        <activity
+401-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:26:9-29:50
+402            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+402-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:27:13-73
+403            android:configChanges="orientation|keyboardHidden|screenSize"
+403-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:28:13-74
+404            android:screenOrientation="sensor" />
+404-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:29:13-47
+405        <activity android:name="com.luck.picture.lib.PictureExternalPreviewActivity" />
+405-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:30:9-88
+405-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:30:19-85
+406        <activity android:name="com.yalantis.ucrop.UCropActivity" />
+406-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:31:9-69
+406-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:31:19-66
+407        <activity android:name="com.yalantis.ucrop.PictureMultiCuttingActivity" />
+407-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:32:9-83
+407-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:32:19-80
+408        <activity android:name="com.luck.picture.lib.PicturePlayAudioActivity" />
+408-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:33:9-82
+408-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:33:19-79
+409        <activity
+409-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:10:9-15:75
+410            android:name="com.blankj.utilcode.util.PermissionUtils$PermissionActivity"
+410-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:11:13-87
+411            android:configChanges="orientation|keyboardHidden|screenSize"
+411-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:12:13-74
+412            android:multiprocess="true"
+412-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:13:13-40
+413            android:theme="@style/ActivityTranslucent"
+413-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:14:13-55
+414            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+414-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:15:13-72
+415
+416        <provider
+416-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:17:9-26:20
+417            android:name="com.blankj.utilcode.util.Utils$FileProvider4UtilCode"
+417-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:18:13-80
+418            android:authorities="com.yzsh.power.client.utilcode.provider"
+418-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:19:13-69
+419            android:exported="false"
+419-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:20:13-37
+420            android:grantUriPermissions="true"
+420-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:21:13-47
+421            android:multiprocess="true" >
+421-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:22:13-40
+422            <meta-data
+422-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:17:13-19:54
+423                android:name="android.support.FILE_PROVIDER_PATHS"
+423-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:18:17-67
+424                android:resource="@xml/util_code_provider_paths" />
+424-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/YZC/.gradle/caches/transforms-2/files-2.1/47617e7be62b0ae767d052edb454ab2e/jetified-picture_library-v2.2.3/AndroidManifest.xml:19:17-51
+425        </provider>
+426
+427        <service android:name="com.blankj.utilcode.util.MessengerUtils$ServerService" >
+427-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:28:9-32:19
+427-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:28:18-86
+428            <intent-filter>
+428-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:29:13-31:29
+429                <action android:name="com.yzsh.power.client.messenger" />
+429-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:30:17-69
+429-->[com.blankj:utilcode:1.25.8] /Users/YZC/.gradle/caches/transforms-2/files-2.1/1831a385ecdccc1a66d8adb12e1e7d32/jetified-utilcode-1.25.8/AndroidManifest.xml:30:25-66
+430            </intent-filter>
+431        </service>
+432
+433        <activity
+433-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:29:9-34:20
+434            android:name="com.alipay.sdk.app.H5PayActivity"
+434-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:30:13-60
+435            android:configChanges="orientation|keyboardHidden|navigation"
+435-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:31:13-74
+436            android:exported="false"
+436-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:32:13-37
+437            android:screenOrientation="behind" >
+437-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:33:13-47
+438        </activity>
+439        <activity
+439-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:35:9-40:20
+440            android:name="com.alipay.sdk.app.H5AuthActivity"
+440-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:36:13-61
+441            android:configChanges="orientation|keyboardHidden|navigation"
+441-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:37:13-74
+442            android:exported="false"
+442-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:38:13-37
+443            android:screenOrientation="behind" >
+443-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:39:13-47
+444        </activity>
+445        <activity
+445-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:41:9-51:20
+446            android:name="com.alipay.sdk.app.PayResultActivity"
+446-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:42:13-64
+447            android:configChanges="orientation|keyboardHidden|navigation"
+447-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:43:13-74
+448            android:exported="true"
+448-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:44:13-36
+449            android:launchMode="singleInstance"
+449-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:45:13-48
+450            android:screenOrientation="portrait"
+450-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:46:13-49
+451            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+451-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:47:13-72
+452            <intent-filter>
+452-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:48:13-50:29
+453                <category android:name="android.intent.category.DEFAULT" />
+453-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:186:17-76
+453-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:186:27-73
+454            </intent-filter>
+455        </activity>
+456        <activity
+456-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:52:9-67:20
+457            android:name="com.alipay.sdk.app.AlipayResultActivity"
+457-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:53:13-67
+458            android:exported="true"
+458-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:54:13-36
+459            android:launchMode="singleTask"
+459-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:55:13-44
+460            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+460-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:56:13-72
+461            <intent-filter>
+461-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:57:13-66:29
+462                <action android:name="android.intent.action.VIEW" />
+462-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:58:17-69
+462-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:58:25-66
+463
+464                <category android:name="android.intent.category.DEFAULT" />
+464-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:186:17-76
+464-->[:getuiflut] /Users/YZC/projects/app_client_flutter/build/getuiflut/intermediates/library_manifest/debug/AndroidManifest.xml:186:27-73
+465                <category android:name="android.intent.category.BROWSABLE" />
+465-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:61:17-78
+465-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:61:27-75
+466
+467                <!-- 此处应配置为app特有的scheme，防止获取返回结果失败 -->
+468                <!-- 此scheme应跟调用支付宝sdk传递的scheme一致 -->
+469                <data android:scheme="alipaysdk" />
+469-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:65:17-52
+469-->[:alipaySdk-15.6.2-20190416-noUtdid:] /Users/YZC/.gradle/caches/transforms-2/files-2.1/70bc360e15d3b202e890d5496422fa0b/jetified-alipaySdk-15.6.2-20190416-noUtdid/AndroidManifest.xml:65:23-49
+470            </intent-filter>
+471        </activity>
+472    </application>
+473
+474</manifest>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:drawablePadding="10dp"
+    android:gravity="center_vertical"
+    android:text="APP界面全新优化，体验更流畅"
+    android:textColor="#ff999999"
+    android:textSize="12sp" />

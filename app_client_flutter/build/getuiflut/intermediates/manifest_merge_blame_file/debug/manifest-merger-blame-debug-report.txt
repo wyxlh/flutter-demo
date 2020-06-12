@@ -1,0 +1,640 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.getui.getuiflut" >
+4
+5    <uses-sdk android:minSdkVersion="16" />
+5-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml
+6    <!-- 个推 -->
+7    <uses-permission android:name="android.permission.INTERNET" />
+7-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:4:5-67
+7-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:4:22-64
+8    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+8-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:5:5-75
+8-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:5:22-72
+9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+9-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:6:5-79
+9-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:6:22-76
+10    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+10-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:7:5-76
+10-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:7:22-73
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:8:5-76
+11-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:8:22-73
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:9:5-81
+12-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:9:22-78
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:10:5-81
+13-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:10:22-78
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:11:5-66
+14-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:11:22-63
+15    <uses-permission android:name="android.permission.GET_TASKS" />
+15-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:12:5-68
+15-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:12:22-65
+16
+17    <!-- 自定义权限 -->
+18    <uses-permission android:name="getui.permission.GetuiService.${applicationId}" />
+18-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:15:5-86
+18-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:15:22-83
+19
+20    <permission
+20-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:17:5-19:55
+21        android:name="getui.permission.GetuiService.${applicationId}"
+21-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:18:9-70
+22        android:protectionLevel="normal" />
+22-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:19:9-41
+23
+24    <!-- 浮动通知权限 -->
+25    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+25-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:22:5-78
+25-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:22:22-75
+26
+27    <!-- 小米 -->
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:4:5-67
+28-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:4:22-64
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:6:5-79
+29-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:6:22-76
+30    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+30-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:8:5-76
+30-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:8:22-73
+31    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+31-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:5:5-75
+31-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:5:22-72
+32    <uses-permission android:name="android.permission.GET_TASKS" />
+32-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:12:5-68
+32-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:12:22-65
+33    <uses-permission android:name="android.permission.VIBRATE" />
+33-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:11:5-66
+33-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:11:22-63
+34    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+34-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:10:5-81
+34-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:10:22-78
+35
+36    <permission
+36-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:33:5-35:47
+37        android:name="${applicationId}.permission.MIPUSH_RECEIVE"
+37-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:34:9-66
+38        android:protectionLevel="signature" />
+38-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:35:9-44
+39
+40    <uses-permission android:name="${applicationId}.permission.MIPUSH_RECEIVE" />
+40-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:36:5-82
+40-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:36:22-79
+41
+42    <!-- 魅族 -->
+43    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+43-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:39:5-73
+43-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:39:22-70
+44    <uses-permission android:name="com.meizu.flyme.push.permission.RECEIVE" />
+44-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:40:5-79
+44-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:40:22-76
+45    <uses-permission android:name="com.meizu.c2dm.permission.RECEIVE" />
+45-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:41:5-73
+45-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:41:22-70
+46    <uses-permission android:name="${applicationId}.push.permission.MESSAGE" />
+46-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:42:5-80
+46-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:42:22-77
+47    <uses-permission android:name="${applicationId}.permission.C2D_MESSAGE" />
+47-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:43:5-79
+47-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:43:22-76
+48
+49    <permission
+49-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:45:5-47:47
+50        android:name="${applicationId}.push.permission.MESSAGE"
+50-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:46:9-64
+51        android:protectionLevel="signature" />
+51-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:47:9-44
+52    <permission
+52-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:48:5-50:47
+53        android:name="${applicationId}.permission.C2D_MESSAGE"
+53-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:49:9-63
+54        android:protectionLevel="signature" />
+54-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:50:9-44
+55
+56    <!-- 华为辅助 SDK -->
+57    <!-- HMS-SDK引导升级HMS功能，访问OTA服务器器需要⽹网络权限 -->
+58    <uses-permission android:name="android.permission.INTERNET" />
+58-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:4:5-67
+58-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:4:22-64
+59    <!-- HMS-SDK引导升级HMS功能，保存下载的升级包需要SD卡写权限 -->
+60    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+60-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:10:5-81
+60-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:10:22-78
+61    <!-- 检测⽹网络状态 -->
+62    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+62-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:6:5-79
+62-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:6:22-76
+63    <!-- 检测wifi状态 -->
+64    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+64-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:8:5-76
+64-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:8:22-73
+65    <!-- 为了了获取⽤用户⼿手机的IMEI，⽤用来唯⼀一的标识⽤用户。 -->
+66    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+66-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:5:5-75
+66-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:5:22-72
+67    <!-- 如果是安卓8.0，应⽤用编译配置的targetSdkVersion>=26，请务必添加以下权限 -->
+68    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+68-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:64:5-83
+68-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:64:22-80
+69    <!-- 接收PUSH TOKEN的⼴广播以及PUSH消息需要定义该权限 -->
+70    <permission
+70-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:66:5-68:55
+71        android:name="${applicationId}.permission.PROCESS_PUSH_MSG"
+71-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:67:9-68
+72        android:protectionLevel="signatureOrSystem" />
+72-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:68:9-52
+73    <!-- 接收PUSH TOKEN的⼴广播以及PUSH消息需要定义该权限 -->
+74    <uses-permission android:name="${applicationId}.permission.PROCESS_PUSH_MSG" />
+74-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:70:5-84
+74-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:70:22-81
+75
+76    <!-- OPPO -->
+77    <uses-permission android:name="com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE" />
+77-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:74:5-86
+77-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:74:22-83
+78
+79    <!-- VIVO -->
+80    <uses-permission android:name="android.permission.INTERNET" />
+80-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:4:5-67
+80-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:4:22-64
+81
+82    <application>
+82-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:79:5-329:19
+83        <meta-data
+83-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:80:9-82:47
+84            android:name="PUSH_APPID"
+84-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:81:13-38
+85            android:value="${GETUI_APP_ID}" />
+85-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:82:13-44
+86        <meta-data
+86-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:83:9-85:48
+87            android:name="PUSH_APPKEY"
+87-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:84:13-39
+88            android:value="${GETUI_APP_KEY}" />
+88-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:85:13-45
+89        <meta-data
+89-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:86:9-88:51
+90            android:name="PUSH_APPSECRET"
+90-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:87:13-42
+91            android:value="${GETUI_APP_SECRET}" />
+91-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:88:13-48
+92        <meta-data
+92-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:89:9-91:51
+93            android:name="MIPUSH_APPID"
+93-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:90:13-40
+94            android:value="XM_${XIAOMI_APP_ID}" />
+94-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:91:13-48
+95        <meta-data
+95-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:92:9-94:52
+96            android:name="MIPUSH_APPKEY"
+96-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:93:13-41
+97            android:value="XM_${XIAOMI_APP_KEY}" />
+97-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:94:13-49
+98        <meta-data
+98-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:95:9-97:50
+99            android:name="MEIZUPUSH_APPID"
+99-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:96:13-43
+100            android:value="MZ_${MEIZU_APP_ID}" />
+100-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:97:13-47
+101        <meta-data
+101-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:98:9-100:51
+102            android:name="MEIZUPUSH_APPKEY"
+102-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:99:13-44
+103            android:value="MZ_${MEIZU_APP_KEY}" />
+103-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:100:13-48
+104        <meta-data
+104-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:101:9-103:48
+105            android:name="com.huawei.hms.client.appid"
+105-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:102:13-55
+106            android:value="${HUAWEI_APP_ID}" />
+106-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:103:13-45
+107        <meta-data
+107-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:104:9-106:50
+108            android:name="OPPOPUSH_APPKEY"
+108-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:105:13-43
+109            android:value="OP_${OPPO_APP_KEY}" />
+109-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:106:13-47
+110        <meta-data
+110-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:107:9-109:53
+111            android:name="OPPOPUSH_APPSECRET"
+111-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:108:13-46
+112            android:value="OP_${OPPO_APP_SECRET}" />
+112-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:109:13-50
+113        <meta-data
+113-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:110:9-112:46
+114            android:name="com.vivo.push.app_id"
+114-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:111:13-48
+115            android:value="${VIVO_APP_ID}" />
+115-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:112:13-43
+116        <meta-data
+116-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:113:9-115:47
+117            android:name="com.vivo.push.api_key"
+117-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:114:13-49
+118            android:value="${VIVO_APP_KEY}" />
+118-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:115:13-44
+119        <!-- 用户自定义服务继承自GTIntentService,作为SDK与APP桥梁服务,用来接收各种消息和命令回复 -->
+120        <service
+120-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:117:9-119:72
+121            android:name="com.getui.getuiflut.FlutterIntentService"
+121-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:118:13-68
+122            android:permission="android.permission.BIND_JOB_SERVICE" />
+122-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:119:13-69
+123        <!-- 配置SDK核心服务 -->
+124        <service
+124-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:121:9-125:46
+125            android:name="com.getui.getuiflut.FlutterPushService"
+125-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:122:13-66
+126            android:exported="true"
+126-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:123:13-36
+127            android:label="PushService"
+127-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:124:13-40
+128            android:process=":pushservice" />
+128-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:125:13-43
+129        <service
+129-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:126:9-135:19
+130            android:name="com.igexin.sdk.PushService"
+130-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:127:13-54
+131            android:exported="true"
+131-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:128:13-36
+132            android:label="NotificationCenter"
+132-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:129:13-47
+133            android:permission="android.permission.BIND_JOB_SERVICE"
+133-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:130:13-69
+134            android:process=":pushservice" >
+134-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:131:13-43
+135            <intent-filter>
+135-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:132:13-134:29
+136                <action android:name="com.igexin.sdk.action.service.message" />
+136-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:133:17-80
+136-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:133:25-77
+137            </intent-filter>
+138        </service>
+139
+140        <receiver android:name="com.igexin.sdk.PushReceiver" >
+140-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:137:9-147:20
+140-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:137:19-61
+141            <intent-filter>
+141-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:138:13-146:29
+142                <action android:name="android.intent.action.BOOT_COMPLETED" />
+142-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:139:17-79
+142-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:139:25-76
+143                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+143-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:140:17-79
+143-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:140:25-76
+144                <action android:name="android.intent.action.USER_PRESENT" />
+144-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:141:17-77
+144-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:141:25-74
+145                <action android:name="com.igexin.sdk.action.refreshls" />
+145-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:142:17-74
+145-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:142:25-71
+146                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+146-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:143:17-78
+146-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:143:25-75
+147                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+147-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:144:17-87
+147-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:144:25-84
+148                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+148-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:145:17-90
+148-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:145:25-87
+149            </intent-filter>
+150        </receiver>
+151
+152        <activity
+152-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:148:9-154:75
+153            android:name="com.igexin.sdk.PushActivity"
+153-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:149:13-55
+154            android:excludeFromRecents="true"
+154-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:150:13-46
+155            android:exported="false"
+155-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:151:13-37
+156            android:process=":pushservice"
+156-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:152:13-43
+157            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+157-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:153:13-67
+158            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+158-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:154:13-72
+159        <activity
+159-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:155:9-161:75
+160            android:name="com.igexin.sdk.GActivity"
+160-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:156:13-52
+161            android:excludeFromRecents="true"
+161-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:157:13-46
+162            android:exported="true"
+162-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:158:13-36
+163            android:process=":pushservice"
+163-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:159:13-43
+164            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+164-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:160:13-67
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+165-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:161:13-72
+166        <!-- Flutter动态看护 -->
+167        <activity
+167-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:163:9-170:15
+168            android:name="com.getui.getuiflut.GetuiPluginActivity"
+168-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:164:13-67
+169            android:excludeFromRecents="true"
+169-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:165:13-46
+170            android:exported="true"
+170-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:166:13-36
+171            android:process=":pushservice"
+171-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:167:13-43
+172            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+172-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:168:13-67
+173            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+173-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:169:13-72
+174        <!-- meizu push -->
+175        <service
+175-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:172:9-175:46
+176            android:name="com.meizu.cloud.pushsdk.NotificationService"
+176-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:173:13-71
+177            android:exported="true"
+177-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:174:13-36
+178            android:process=":pushservice" />
+178-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:175:13-43
+179
+180        <receiver
+180-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:177:9-185:20
+181            android:name="com.meizu.cloud.pushsdk.SystemReceiver"
+181-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:178:13-66
+182            android:process=":pushservice" >
+182-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:179:13-43
+183            <intent-filter>
+183-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:180:13-184:29
+184                <action android:name="com.meizu.cloud.pushservice.action.PUSH_SERVICE_START" />
+184-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:181:17-96
+184-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:181:25-93
+185
+186                <category android:name="android.intent.category.DEFAULT" />
+186-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:183:17-76
+186-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:183:27-73
+187            </intent-filter>
+188        </receiver>
+189        <receiver
+189-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:186:9-203:20
+190            android:name="com.igexin.sdk.FlymePushReceiver"
+190-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:187:13-60
+191            android:process=":pushservice" >
+191-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:188:13-43
+192            <intent-filter>
+192-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:189:13-202:29
+193
+194                <!-- 接收push消息 -->
+195                <action android:name="com.meizu.flyme.push.intent.MESSAGE" />
+195-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:192:17-78
+195-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:192:25-75
+196                <!-- 接收register消息 -->
+197                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK" />
+197-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:194:17-88
+197-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:194:25-85
+198                <!-- 接收unregister消息 -->
+199                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK" />
+199-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:196:17-90
+199-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:196:25-87
+200                <!-- 兼容低版本Flyme3推送服务配置 -->
+201                <action android:name="com.meizu.c2dm.intent.REGISTRATION" />
+201-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:198:17-77
+201-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:198:25-74
+202                <action android:name="com.meizu.c2dm.intent.RECEIVE" />
+202-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:199:17-72
+202-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:199:25-69
+203
+204                <category android:name="${applicationId}" />
+204-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:201:17-61
+204-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:201:27-58
+205            </intent-filter>
+206        </receiver>
+207
+208        <!-- mipush -->
+209        <service
+209-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:206:9-210:46
+210            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+210-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:207:13-68
+211            android:enabled="true"
+211-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:208:13-35
+212            android:exported="true"
+212-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:209:13-36
+213            android:process=":pushservice" />
+213-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:210:13-43
+214        <service
+214-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:211:9-214:46
+215            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+215-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:212:13-70
+216            android:enabled="true"
+216-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:213:13-35
+217            android:process=":pushservice" />
+217-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:214:13-43
+218
+219        <receiver
+219-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:216:9-229:20
+220            android:name="com.igexin.sdk.MiuiPushReceiver"
+220-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:217:13-59
+221            android:exported="true"
+221-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:218:13-36
+222            android:process=":pushservice" >
+222-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:219:13-43
+223            <intent-filter>
+223-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:220:13-222:29
+224                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+224-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:221:17-76
+224-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:221:25-73
+225            </intent-filter>
+226            <intent-filter>
+226-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:223:13-225:29
+227                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+227-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:224:17-76
+227-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:224:25-73
+228            </intent-filter>
+229            <intent-filter>
+229-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:226:13-228:29
+230                <action android:name="com.xiaomi.mipush.ERROR" />
+230-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:227:17-66
+230-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:227:25-63
+231            </intent-filter>
+232        </receiver>
+233
+234        <!-- hmspush -->
+235        <activity
+235-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:232:9-243:20
+236            android:name="com.huawei.android.hms.agent.common.HMSAgentActivity"
+236-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:233:13-80
+237            android:configChanges="orientation|locale|screenSize|layoutDirection|fontScale"
+237-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:234:13-92
+238            android:excludeFromRecents="true"
+238-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:235:13-46
+239            android:exported="false"
+239-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:236:13-37
+240            android:hardwareAccelerated="true"
+240-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:237:13-47
+241            android:process=":pushservice"
+241-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:238:13-43
+242            android:theme="@android:style/Theme.Translucent" >
+242-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:239:13-61
+243            <meta-data
+243-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:240:13-242:77
+244                android:name="hwc-theme"
+244-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:241:17-41
+245                android:value="androidhwext:style/Theme.Emui.Translucent" />
+245-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:242:17-74
+246        </activity>
+247        <activity
+247-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:245:9-256:20
+248            android:name="com.huawei.hms.activity.BridgeActivity"
+248-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:246:13-66
+249            android:configChanges="orientation|locale|screenSize|layoutDirection|fontScale"
+249-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:247:13-92
+250            android:excludeFromRecents="true"
+250-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:248:13-46
+251            android:exported="false"
+251-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:249:13-37
+252            android:hardwareAccelerated="true"
+252-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:250:13-47
+253            android:process=":pushservice"
+253-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:251:13-43
+254            android:theme="@android:style/Theme.Translucent" >
+254-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:252:13-61
+255            <meta-data
+255-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:240:13-242:77
+256                android:name="hwc-theme"
+256-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:241:17-41
+257                android:value="androidhwext:style/Theme.Emui.Translucent" />
+257-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:242:17-74
+258        </activity>
+259
+260        <provider
+260-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:258:9-263:55
+261            android:name="com.huawei.hms.update.provider.UpdateProvider"
+261-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:259:13-73
+262            android:authorities="${applicationId}.hms.update.provider"
+262-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:260:13-71
+263            android:exported="false"
+263-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:261:13-37
+264            android:grantUriPermissions="true"
+264-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:262:13-47
+265            android:process=":pushservice" />
+265-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:263:13-43
+266
+267        <receiver
+267-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:265:9-277:20
+268            android:name="com.igexin.sdk.HmsPushReceiver"
+268-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:266:13-58
+269            android:permission="${applicationId}.permission.PROCESS_PUSH_MSG"
+269-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:267:13-78
+270            android:process=":pushservice" >
+270-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:268:13-43
+271            <intent-filter>
+271-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:269:13-276:29
+272
+273                <!-- 必须,⽤用于接收token -->
+274                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
+274-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:271:17-86
+274-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:271:25-83
+275                <!-- 必须，⽤用于接收消息 -->
+276                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+276-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:273:17-81
+276-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:273:25-78
+277                <!-- 必须, ⽤用于接收通知栏消息点击事件 此事件不不需要开发者处理理，只需注册就可以 -->
+278                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY" />
+278-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:275:17-85
+278-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:275:25-82
+279            </intent-filter>
+280        </receiver>
+281        <receiver
+281-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:278:9-288:20
+282            android:name="com.igexin.sdk.HmsPushSubReceiver"
+282-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:279:13-61
+283            android:process=":pushservice" >
+283-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:280:13-43
+284            <intent-filter>
+284-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:281:13-287:29
+285
+286                <!-- 可选，⽤用于点击通知栏或通知栏上的按钮后触发onEvent回调 -->
+287                <action android:name="com.huawei.android.push.intent.CLICK" />
+287-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:284:17-79
+287-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:284:25-76
+288                <!-- 可选，查看push通道是否连接，不不查看则不不需要 -->
+289                <action android:name="com.huawei.intent.action.PUSH_STATE" />
+289-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:286:17-78
+289-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:286:25-75
+290            </intent-filter>
+291        </receiver>
+292        <!-- 接⼊入HMSSDK PUSH模块需要注册该service，不不需要开发者处理理 -->
+293        <service
+293-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:290:9-299:19
+294            android:name="com.huawei.hms.support.api.push.service.HmsMsgService"
+294-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:291:13-81
+295            android:enabled="true"
+295-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:292:13-35
+296            android:exported="true"
+296-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:293:13-36
+297            android:process=":pushservice" >
+297-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:294:13-43
+298            <intent-filter>
+298-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:295:13-298:29
+299                <action android:name="com.huawei.push.msg.NOTIFY_MSG" />
+299-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:296:17-73
+299-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:296:25-70
+300                <action android:name="com.huawei.push.msg.PASSBY_MSG" />
+300-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:297:17-73
+300-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:297:25-70
+301            </intent-filter>
+302        </service>
+303
+304        <!-- oppopush -->
+305        <service
+305-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:302:9-308:19
+306            android:name="com.igexin.sdk.OppoPushService"
+306-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:303:13-58
+307            android:process=":pushservice" >
+307-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:304:13-43
+308            <intent-filter>
+308-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:305:13-307:29
+309                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE" />
+309-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:306:17-85
+309-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:306:25-82
+310            </intent-filter>
+311        </service>
+312
+313        <!-- vivopush -->
+314        <service
+314-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:311:9-314:46
+315            android:name="com.vivo.push.sdk.service.CommandClientService"
+315-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:312:13-74
+316            android:exported="true"
+316-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:313:13-36
+317            android:process=":pushservice" />
+317-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:314:13-43
+318
+319        <activity
+319-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:315:9-320:75
+320            android:name="com.vivo.push.sdk.LinkProxyClientActivity"
+320-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:316:13-69
+321            android:exported="true"
+321-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:317:13-36
+322            android:process=":pushservice"
+322-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:318:13-43
+323            android:screenOrientation="portrait"
+323-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:319:13-49
+324            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+324-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:320:13-72
+325
+326        <receiver
+326-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:321:9-328:20
+327            android:name="com.igexin.sdk.VivoPushMessageReceiver"
+327-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:322:13-66
+328            android:process=":pushservice" >
+328-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:323:13-43
+329            <intent-filter>
+329-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:324:13-327:29
+330
+331                <!-- 接收 push 消息 -->
+332                <action android:name="com.vivo.pushclient.action.RECEIVE" />
+332-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:326:17-77
+332-->/Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:326:25-74
+333            </intent-filter>
+334        </receiver>
+335    </application>
+336
+337</manifest>

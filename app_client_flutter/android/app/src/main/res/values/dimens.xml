@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="status_bar_height">0dp</dimen>
+    <dimen name="icon_normal_size">18dp</dimen>
+    <dimen name="padding_normal">23dp</dimen>
+    <dimen name="text_size_36">36sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+    <dimen name="text_size_27">27sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_9">9sp</dimen>
+    <dimen name="activity_promotion_profit_padding">15dp</dimen>
+    <dimen name="line" format="float" type="dimen">0.5dp</dimen>
+    <dimen name="btn_height">40dp</dimen>
+</resources>

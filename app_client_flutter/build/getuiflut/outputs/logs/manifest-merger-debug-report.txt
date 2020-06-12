@@ -1,0 +1,565 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:1:1-330:12
+INJECTED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:1:1-330:12
+INJECTED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:1:1-330:12
+	package
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:2:3-32
+		INJECTED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:5:5-75
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:5:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:8:22-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:11:22-63
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:12:22-65
+uses-permission#getui.permission.GetuiService.${applicationId}
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:15:5-86
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:15:22-83
+permission#getui.permission.GetuiService.${applicationId}
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:17:5-19:55
+	android:protectionLevel
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:19:9-41
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:18:9-70
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:22:5-78
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:22:22-75
+permission#${applicationId}.permission.MIPUSH_RECEIVE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:33:5-35:47
+	android:protectionLevel
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:35:9-44
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:34:9-66
+uses-permission#${applicationId}.permission.MIPUSH_RECEIVE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:36:5-82
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:36:22-79
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:39:5-73
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:39:22-70
+uses-permission#com.meizu.flyme.push.permission.RECEIVE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:40:5-79
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:40:22-76
+uses-permission#com.meizu.c2dm.permission.RECEIVE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:41:5-73
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:41:22-70
+uses-permission#${applicationId}.push.permission.MESSAGE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:42:5-80
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:42:22-77
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:43:5-79
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:43:22-76
+permission#${applicationId}.push.permission.MESSAGE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:45:5-47:47
+	android:protectionLevel
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:47:9-44
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:46:9-64
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:48:5-50:47
+	android:protectionLevel
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:50:9-44
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:49:9-63
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:64:5-83
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:64:22-80
+permission#${applicationId}.permission.PROCESS_PUSH_MSG
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:66:5-68:55
+	android:protectionLevel
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:68:9-52
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:67:9-68
+uses-permission#${applicationId}.permission.PROCESS_PUSH_MSG
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:70:5-84
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:70:22-81
+uses-permission#com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:74:5-86
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:74:22-83
+application
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:79:5-329:19
+meta-data#PUSH_APPID
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:80:9-82:47
+	android:value
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:82:13-44
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:81:13-38
+meta-data#PUSH_APPKEY
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:83:9-85:48
+	android:value
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:85:13-45
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:84:13-39
+meta-data#PUSH_APPSECRET
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:86:9-88:51
+	android:value
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:88:13-48
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:87:13-42
+meta-data#MIPUSH_APPID
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:89:9-91:51
+	android:value
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:91:13-48
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:90:13-40
+meta-data#MIPUSH_APPKEY
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:92:9-94:52
+	android:value
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:94:13-49
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:93:13-41
+meta-data#MEIZUPUSH_APPID
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:95:9-97:50
+	android:value
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:97:13-47
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:96:13-43
+meta-data#MEIZUPUSH_APPKEY
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:98:9-100:51
+	android:value
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:100:13-48
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:99:13-44
+meta-data#com.huawei.hms.client.appid
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:101:9-103:48
+	android:value
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:103:13-45
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:102:13-55
+meta-data#OPPOPUSH_APPKEY
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:104:9-106:50
+	android:value
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:106:13-47
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:105:13-43
+meta-data#OPPOPUSH_APPSECRET
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:107:9-109:53
+	android:value
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:109:13-50
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:108:13-46
+meta-data#com.vivo.push.app_id
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:110:9-112:46
+	android:value
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:112:13-43
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:111:13-48
+meta-data#com.vivo.push.api_key
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:113:9-115:47
+	android:value
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:115:13-44
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:114:13-49
+service#com.getui.getuiflut.FlutterIntentService
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:117:9-119:72
+	android:permission
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:119:13-69
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:118:13-68
+service#com.getui.getuiflut.FlutterPushService
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:121:9-125:46
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:125:13-43
+	android:label
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:124:13-40
+	android:exported
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:123:13-36
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:122:13-66
+service#com.igexin.sdk.PushService
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:126:9-135:19
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:131:13-43
+	android:label
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:129:13-47
+	android:exported
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:128:13-36
+	android:permission
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:130:13-69
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:127:13-54
+intent-filter#action:name:com.igexin.sdk.action.service.message
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:132:13-134:29
+action#com.igexin.sdk.action.service.message
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:133:17-80
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:133:25-77
+receiver#com.igexin.sdk.PushReceiver
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:137:9-147:20
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:137:19-61
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MEDIA_MOUNTED+action:name:android.intent.action.USER_PRESENT+action:name:android.net.conn.CONNECTIVITY_CHANGE+action:name:com.igexin.sdk.action.refreshls
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:138:13-146:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:139:17-79
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:139:25-76
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:140:17-79
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:140:25-76
+action#android.intent.action.USER_PRESENT
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:141:17-77
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:141:25-74
+action#com.igexin.sdk.action.refreshls
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:142:17-74
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:142:25-71
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:143:17-78
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:143:25-75
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:144:17-87
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:144:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:145:17-90
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:145:25-87
+activity#com.igexin.sdk.PushActivity
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:148:9-154:75
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:152:13-43
+	android:excludeFromRecents
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:150:13-46
+	android:exported
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:151:13-37
+	android:theme
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:154:13-72
+	android:taskAffinity
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:153:13-67
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:149:13-55
+activity#com.igexin.sdk.GActivity
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:155:9-161:75
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:159:13-43
+	android:excludeFromRecents
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:157:13-46
+	android:exported
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:158:13-36
+	android:theme
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:161:13-72
+	android:taskAffinity
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:160:13-67
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:156:13-52
+activity#com.getui.getuiflut.GetuiPluginActivity
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:163:9-170:15
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:167:13-43
+	android:excludeFromRecents
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:165:13-46
+	android:exported
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:166:13-36
+	android:theme
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:169:13-72
+	android:taskAffinity
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:168:13-67
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:164:13-67
+service#com.meizu.cloud.pushsdk.NotificationService
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:172:9-175:46
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:175:13-43
+	android:exported
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:174:13-36
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:173:13-71
+receiver#com.meizu.cloud.pushsdk.SystemReceiver
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:177:9-185:20
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:179:13-43
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:178:13-66
+intent-filter#action:name:com.meizu.cloud.pushservice.action.PUSH_SERVICE_START+category:name:android.intent.category.DEFAULT
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:180:13-184:29
+action#com.meizu.cloud.pushservice.action.PUSH_SERVICE_START
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:181:17-96
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:181:25-93
+category#android.intent.category.DEFAULT
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:183:17-76
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:183:27-73
+receiver#com.igexin.sdk.FlymePushReceiver
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:186:9-203:20
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:188:13-43
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:187:13-60
+intent-filter#action:name:com.meizu.c2dm.intent.RECEIVE+action:name:com.meizu.c2dm.intent.REGISTRATION+action:name:com.meizu.flyme.push.intent.MESSAGE+action:name:com.meizu.flyme.push.intent.REGISTER.FEEDBACK+action:name:com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK+category:name:${applicationId}
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:189:13-202:29
+action#com.meizu.flyme.push.intent.MESSAGE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:192:17-78
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:192:25-75
+action#com.meizu.flyme.push.intent.REGISTER.FEEDBACK
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:194:17-88
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:194:25-85
+action#com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:196:17-90
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:196:25-87
+action#com.meizu.c2dm.intent.REGISTRATION
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:198:17-77
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:198:25-74
+action#com.meizu.c2dm.intent.RECEIVE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:199:17-72
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:199:25-69
+category#${applicationId}
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:201:17-61
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:201:27-58
+service#com.xiaomi.mipush.sdk.PushMessageHandler
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:206:9-210:46
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:210:13-43
+	android:enabled
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:208:13-35
+	android:exported
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:209:13-36
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:207:13-68
+service#com.xiaomi.mipush.sdk.MessageHandleService
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:211:9-214:46
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:214:13-43
+	android:enabled
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:213:13-35
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:212:13-70
+receiver#com.igexin.sdk.MiuiPushReceiver
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:216:9-229:20
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:219:13-43
+	android:exported
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:218:13-36
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:217:13-59
+intent-filter#action:name:com.xiaomi.mipush.RECEIVE_MESSAGE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:220:13-222:29
+action#com.xiaomi.mipush.RECEIVE_MESSAGE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:221:17-76
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:221:25-73
+intent-filter#action:name:com.xiaomi.mipush.MESSAGE_ARRIVED
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:223:13-225:29
+action#com.xiaomi.mipush.MESSAGE_ARRIVED
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:224:17-76
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:224:25-73
+intent-filter#action:name:com.xiaomi.mipush.ERROR
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:226:13-228:29
+action#com.xiaomi.mipush.ERROR
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:227:17-66
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:227:25-63
+activity#com.huawei.android.hms.agent.common.HMSAgentActivity
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:232:9-243:20
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:238:13-43
+	android:excludeFromRecents
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:235:13-46
+	android:hardwareAccelerated
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:237:13-47
+	android:exported
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:236:13-37
+	android:configChanges
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:234:13-92
+	android:theme
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:239:13-61
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:233:13-80
+meta-data#hwc-theme
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:240:13-242:77
+	android:value
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:242:17-74
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:241:17-41
+activity#com.huawei.hms.activity.BridgeActivity
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:245:9-256:20
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:251:13-43
+	android:excludeFromRecents
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:248:13-46
+	android:hardwareAccelerated
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:250:13-47
+	android:exported
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:249:13-37
+	android:configChanges
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:247:13-92
+	android:theme
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:252:13-61
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:246:13-66
+provider#com.huawei.hms.update.provider.UpdateProvider
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:258:9-263:55
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:263:13-43
+	android:grantUriPermissions
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:262:13-47
+	android:authorities
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:260:13-71
+	android:exported
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:261:13-37
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:259:13-73
+receiver#com.igexin.sdk.HmsPushReceiver
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:265:9-277:20
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:268:13-43
+	android:permission
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:267:13-78
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:266:13-58
+intent-filter#action:name:com.huawei.android.push.intent.RECEIVE+action:name:com.huawei.android.push.intent.REGISTRATION+action:name:com.huawei.intent.action.PUSH_DELAY_NOTIFY
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:269:13-276:29
+action#com.huawei.android.push.intent.REGISTRATION
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:271:17-86
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:271:25-83
+action#com.huawei.android.push.intent.RECEIVE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:273:17-81
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:273:25-78
+action#com.huawei.intent.action.PUSH_DELAY_NOTIFY
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:275:17-85
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:275:25-82
+receiver#com.igexin.sdk.HmsPushSubReceiver
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:278:9-288:20
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:280:13-43
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:279:13-61
+intent-filter#action:name:com.huawei.android.push.intent.CLICK+action:name:com.huawei.intent.action.PUSH_STATE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:281:13-287:29
+action#com.huawei.android.push.intent.CLICK
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:284:17-79
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:284:25-76
+action#com.huawei.intent.action.PUSH_STATE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:286:17-78
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:286:25-75
+service#com.huawei.hms.support.api.push.service.HmsMsgService
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:290:9-299:19
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:294:13-43
+	android:enabled
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:292:13-35
+	android:exported
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:293:13-36
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:291:13-81
+intent-filter#action:name:com.huawei.push.msg.NOTIFY_MSG+action:name:com.huawei.push.msg.PASSBY_MSG
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:295:13-298:29
+action#com.huawei.push.msg.NOTIFY_MSG
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:296:17-73
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:296:25-70
+action#com.huawei.push.msg.PASSBY_MSG
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:297:17-73
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:297:25-70
+service#com.igexin.sdk.OppoPushService
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:302:9-308:19
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:304:13-43
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:303:13-58
+intent-filter#action:name:com.coloros.mcs.action.RECEIVE_MCS_MESSAGE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:305:13-307:29
+action#com.coloros.mcs.action.RECEIVE_MCS_MESSAGE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:306:17-85
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:306:25-82
+service#com.vivo.push.sdk.service.CommandClientService
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:311:9-314:46
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:314:13-43
+	android:exported
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:313:13-36
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:312:13-74
+activity#com.vivo.push.sdk.LinkProxyClientActivity
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:315:9-320:75
+	android:screenOrientation
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:319:13-49
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:318:13-43
+	android:exported
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:317:13-36
+	android:theme
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:320:13-72
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:316:13-69
+receiver#com.igexin.sdk.VivoPushMessageReceiver
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:321:9-328:20
+	android:process
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:323:13-43
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:322:13-66
+intent-filter#action:name:com.vivo.pushclient.action.RECEIVE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:324:13-327:29
+action#com.vivo.pushclient.action.RECEIVE
+ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:326:17-77
+	android:name
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml:326:25-74
+uses-sdk
+INJECTED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml
+INJECTED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml
+		ADDED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/YZC/flutter/.pub-cache/hosted/pub.flutter-io.cn/getuiflut-0.1.9/android/src/main/AndroidManifest.xml

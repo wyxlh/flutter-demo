@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimaryOne">#F78556</color>
+    <color name="colorPrimaryTwo">#CECECE</color>
+    <color name="colorPrimaryThree">#FF8554</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorText333">#333333</color>
+    <color name="colorText666">#666666</color>
+    <color name="colorText999">#999999</color>
+    <color name="colorTextCcc">#CCCCCC</color>
+    <color name="bg_my_recharge">#F5F5F5</color>
+    <color name="bg_charge_order_detail">#2E304E</color>
+    <color name="bg_line">#E4E4E4</color>
+    <color name="web_pb">#DF0007</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent20">#33000000</color>
+    <color name="background">#F5F5F5</color>
+    <color name="mall_search_tab_select">#FF6430</color>
+</resources>

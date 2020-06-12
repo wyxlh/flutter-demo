@@ -1,0 +1,191 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new Exception("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+apply plugin: 'com.android.application'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+android {
+    compileSdkVersion 29
+
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId 'com.yzsh.power.client'
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        manifestPlaceholders = [
+                GETUI_APP_ID    : "1rF4Wza0hq5spZQ2DfkDo9",
+                GETUI_APP_KEY   : "raJ98El2eA6inHcUqtQ8Y4",
+                GETUI_APP_SECRET: "yv9h22UUiQ9vQTfnoVcz26",
+                // 下面是多厂商配置，如需要开通使用请联系技术支持
+                // 如果不需要使用，预留空字段即可
+                XIAOMI_APP_ID   : "",
+                XIAOMI_APP_KEY  : "",
+                MEIZU_APP_ID    : "",
+                MEIZU_APP_KEY   : "",
+                HUAWEI_APP_ID   : "",
+                OPPO_APP_KEY   : "",
+                OPPO_APP_SECRET  : "",
+                VIVO_APP_ID   : "",
+                VIVO_APP_KEY  : ""
+        ]
+        ndk {
+            abiFilters "x86"
+            //abiFilters "armeabi"
+            //abiFilters "armeabi-v7a"
+            abiFilters "arm64-v8a"
+            abiFilters "x86_64"
+        }
+    }
+
+    buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    signingConfigs {
+        debug {
+            v1SigningEnabled true
+            v2SigningEnabled true
+            keyAlias keystoreProperties['keyAlias_yzc']
+            keyPassword keystoreProperties['keyPassword_yzc']
+            storeFile file(keystoreProperties['storeFile_yzc'])
+            storePassword keystoreProperties['storePassword_yzc']
+        }
+        release {
+            v1SigningEnabled true
+            v2SigningEnabled true
+            keyAlias keystoreProperties['keyAlias_yzc']
+            keyPassword keystoreProperties['keyPassword_yzc']
+            storeFile file(keystoreProperties['storeFile_yzc'])
+            storePassword keystoreProperties['storePassword_yzc']
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+    buildToolsVersion = '29.0.3'
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //状态栏相关的库
+    implementation 'com.gyf.immersionbar:immersionbar:2.3.3'
+    implementation 'com.amap.api:location:4.9.0' //高德地图
+    //微信功能
+    implementation 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:5.3.1'
+    //项目有点大，已经超过65k个方法。一个dex已经装不下了，需要个多个dex，也就是multidex ，因为Android系统定义总方法数是一个short int，short int 最大值为65536
+    implementation 'com.android.support:multidex:1.0.3'
+
+    //工具类
+    implementation 'org.xutils:xutils:3.5.1'
+    implementation 'com.blankj:utilcode:1.25.8'
+    implementation 'com.tencent.bugly:crashreport:3.0.0' //其中latest.release指代最新Bugly SDK版本号,崩溃上报
+    implementation 'com.github.hss01248:NotifyUtil:1.0.1'
+    implementation 'cn.bingoogolapple:bga-banner:2.2.6@aar'
+
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46'
+    implementation 'com.squareup.okhttp3:okhttp:4.7.2'
+    //导入retrofit
+    implementation('com.squareup.retrofit2:retrofit:2.9.0') {
+        exclude group: 'com.squareup.okhttp3', module: 'okhttp'//从模块中删除
+    }
+
+    //Gson 库
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    // RxAndroid
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+
+    //RxJava
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.8'
+
+    //图片加载工具
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+
+    //转换器，请求结果转换成Model
+    implementation('com.squareup.retrofit2:converter-gson:2.9.0') {
+        exclude group: 'com.squareup.okhttp3', module: 'okhttp'//从模块中删除
+    }
+
+    //配合Rxjava 使用
+    implementation('com.squareup.retrofit2:adapter-rxjava2:2.9.0') {
+        exclude group: 'com.squareup.okhttp3', module: 'okhttp'//从模块中删除
+    }
+
+    implementation('com.squareup.okhttp3:logging-interceptor:4.7.2') {
+        exclude group: 'com.squareup.okhttp3', module: 'okhttp'//从模块中删除
+    }
+
+    implementation 'com.contrarywind:Android-PickerView:4.1.8' //三级联动，三方架构
+
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-28'
+    //二维码扫描
+    implementation 'cn.yipianfengye.android:zxing-library:2.2'
+    //权限申请
+    //implementation 'com.github.tbruyelle:rxpermissions:0.10.2'
+    implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar'
+
+    //DSBridge
+    implementation 'com.github.wendux:DSBridge-Android:3.0-SNAPSHOT'
+
+    implementation 'org.greenrobot:eventbus:3.1.1'
+
+    //拍照视频引入
+    implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.3'
+
+    //微信功能
+    implementation 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:5.3.1'
+
+    //支付宝
+    implementation(name: 'alipaySdk-15.6.2-20190416-noUtdid', ext: 'aar')
+}
